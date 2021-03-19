@@ -1,0 +1,21 @@
+{
+    "@id": "dtmi:com:microsoft:iot:e2e:SmartHouse:Area;1",
+    "@type": "Interface",
+    "displayName": "Area - Interface Model",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "AreaName",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:com:microsoft:iot:e2e:SmartHouse:Area:rel_has_HA_Sensor_Unit;1",
+            "name": "rel_has_HA_Sensor_Unit",
+            "displayName": "Has HA sensor",
+            "target": "dtmi:com:microsoft:iot:e2e:SmartHouse:HA_Sensor_Unit;1"
+        }
+    ]
+}

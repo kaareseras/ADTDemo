@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\digital-twins-samples\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\digital-twins-samples\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\digital-twins-samples\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
+        "projectName": "SampleClientApp",
+        "projectPath": "C:\\Git\\digital-twins-samples\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
+        "packagesPath": "C:\\Users\\karasmus\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\digital-twins-samples\\AdtSampleApp\\SampleClientApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Git\\digital-twins-samples\\AdtSampleApp\\NuGet.Config",
+          "C:\\Users\\karasmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.DigitalTwins.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.Azure.DigitalTwins.Parser": {
+              "target": "Package",
+              "version": "[3.12.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
